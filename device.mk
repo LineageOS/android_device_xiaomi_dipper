@@ -106,3 +106,7 @@ PRODUCT_PACKAGES += \
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
+
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
