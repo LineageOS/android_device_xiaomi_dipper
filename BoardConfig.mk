@@ -5,7 +5,7 @@
 #
 
 # Inherit from sdm845-common
--include device/xiaomi/sdm845-common/BoardConfigCommon.mk
+include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -37,4 +37,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
--include vendor/xiaomi/dipper/BoardConfigVendor.mk
+include vendor/xiaomi/dipper/BoardConfigVendor.mk
