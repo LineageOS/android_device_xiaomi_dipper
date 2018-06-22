@@ -7,6 +7,8 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_DUP_RULES := true
+
 DEVICE_PATH := device/xiaomi/dipper
 
 # Assert
