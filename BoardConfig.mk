@@ -17,3 +17,6 @@ TARGET_KERNEL_CONFIG := dipper_defconfig
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
+
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
