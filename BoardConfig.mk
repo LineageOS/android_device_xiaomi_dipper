@@ -17,3 +17,6 @@ TARGET_KERNEL_CONFIG := dipper_defconfig
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
+
+# NFC
+TARGET_USES_NQ_NFC := true
