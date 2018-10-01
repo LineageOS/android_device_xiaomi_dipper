@@ -4,6 +4,10 @@ lib64/com.qualcomm.qti.ant@1.0.so
 lib/com.qualcomm.qti.ant@1.0.so
 -lib/libantradio.so
 
+# Audio
+lib64/soundfx/libvolumelistener.so
+lib/soundfx/libvolumelistener.so
+
 # CNE
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
