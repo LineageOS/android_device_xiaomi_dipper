@@ -18,5 +18,8 @@ TARGET_KERNEL_CONFIG := dipper_defconfig
 # NFC
 TARGET_USES_NQ_NFC := true
 
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
