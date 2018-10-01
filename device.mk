@@ -28,6 +28,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from sdm845-common
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/libvolumelistener32.so:system/lib/soundfx/libvolumelistener.so \
+    $(LOCAL_PATH)/audio/libvolumelistener64.so:system/lib64/soundfx/libvolumelistener.so
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.target.rc
