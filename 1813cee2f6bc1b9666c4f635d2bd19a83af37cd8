@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e17d7cd8_eea6f15d",
+        "filename": "sepolicy/private/init.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-02T11:34:56Z",
+      "side": 1,
+      "message": "This isn\u0027t needed, since the rule already exists in the common tree.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 36
+      },
+      "revId": "1813cee2f6bc1b9666c4f635d2bd19a83af37cd8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
