@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "bca278cb_3fc085a2",
+        "filename": "device-props.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 19369
+      },
+      "writtenOn": "2018-10-04T16:17:01Z",
+      "side": 1,
+      "message": "These props can be added in common tree as all sdm845 xiaomi devices have it in stock build.prop",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 50
+      },
+      "revId": "8f6f5d996fd08a71c2a2bae5d573100a86e4ff7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f7326ff6_41abe26f",
         "filename": "device-props.mk",
         "patchSetId": 1
