@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b55f6b70_181c49b4",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-10T09:16:14Z",
+      "side": 1,
+      "message": "This is not needed here. It\u0027s the default value: https://github.com/LineageOS/android_frameworks_base/blob/lineage-16.0/core/res/res/values/config.xml#L2937",
+      "range": {
+        "startLine": 193,
+        "startChar": 4,
+        "endLine": 193,
+        "endChar": 65
+      },
+      "revId": "2d80f566c1cc9525ac08a19be5eee20bb409ea37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
