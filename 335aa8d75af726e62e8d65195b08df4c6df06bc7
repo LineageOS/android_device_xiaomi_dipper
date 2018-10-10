@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6d9aab28_5a42c5a0",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-10T12:35:47Z",
+      "side": 1,
+      "message": "Why is this value so different than in O? Back then it was 110px.",
+      "range": {
+        "startLine": 191,
+        "startChar": 45,
+        "endLine": 191,
+        "endChar": 51
+      },
+      "revId": "335aa8d75af726e62e8d65195b08df4c6df06bc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
