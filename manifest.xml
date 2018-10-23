@@ -278,8 +278,10 @@
         <version>1.0</version>
         <interface>
             <name>ISecureElement</name>
+            <instance>SIM1</instance>
             <instance>eSE1</instance>
         </interface>
+        <fqname>@1.0::ISecureElement/SIM1</fqname>
         <fqname>@1.0::ISecureElement/eSE1</fqname>
     </hal>
     <hal format="hidl">
@@ -633,16 +635,6 @@
         <fqname>@1.0::IFactory/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.fm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IFmHci</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IFmHci/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.iop</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -968,22 +960,22 @@
     <hal format="hidl">
         <name>vendor.xiaomi.hardware.mlipay</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>IMlipayService</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IMlipayService/default</fqname>
+        <fqname>@1.1::IMlipayService/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.xiaomi.hardware.mtdservice</name>
         <transport>hwbinder</transport>
-        <version>1.1</version>
+        <version>1.2</version>
         <interface>
             <name>IMTService</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.1::IMTService/default</fqname>
+        <fqname>@1.2::IMTService/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.xiaomi.hardware.tidaservice</name>
