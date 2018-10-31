@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d012aedd_7779063a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-31T20:50:29Z",
+      "side": 1,
+      "message": "This is only needed by spkcal daemon, which seems to be used by MIUI test and calibration app.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "ec21bafdbafc22d02e1f41953511c72b8fdba945",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc09da9a_be437ac6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-31T20:50:29Z",
+      "side": 1,
+      "message": "Unused.",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 24
+      },
+      "revId": "ec21bafdbafc22d02e1f41953511c72b8fdba945",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e8bea96_765fbb0c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-31T20:50:29Z",
+      "side": 1,
+      "message": "Useless, since we don\u0027t support QTI perf in the frameworks.",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 25
+      },
+      "revId": "ec21bafdbafc22d02e1f41953511c72b8fdba945",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f0c8f983_dbd301a8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-31T20:50:29Z",
+      "side": 1,
+      "message": "Do you really need this?",
+      "range": {
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 183,
+        "endChar": 56
+      },
+      "revId": "ec21bafdbafc22d02e1f41953511c72b8fdba945",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
