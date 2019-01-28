@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "43c7a43d_fa58007b",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-01-28T08:46:04Z",
+      "side": 1,
+      "message": "Already set in the common tree.",
+      "range": {
+        "startLine": 41,
+        "startChar": 16,
+        "endLine": 41,
+        "endChar": 62
+      },
+      "revId": "e5a99ea6ac96a499ac1d87eae5aab9d7578e665f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3eec14e1_66f7577f",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-01-28T08:46:04Z",
+      "side": 1,
+      "message": "Already set in the common tree.",
+      "range": {
+        "startLine": 56,
+        "startChar": 16,
+        "endLine": 56,
+        "endChar": 62
+      },
+      "revId": "e5a99ea6ac96a499ac1d87eae5aab9d7578e665f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c03fea80_7a4db165",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-01-28T08:46:04Z",
+      "side": 1,
+      "message": "Move this to the place where it was set before so that the change looks minimal.",
+      "range": {
+        "startLine": 145,
+        "startChar": 19,
+        "endLine": 145,
+        "endChar": 56
+      },
+      "revId": "e5a99ea6ac96a499ac1d87eae5aab9d7578e665f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6143a4f4_375428b4",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-01-28T08:46:04Z",
+      "side": 1,
+      "message": "Move this to the place where it was set before so that the change looks minimal.",
+      "range": {
+        "startLine": 157,
+        "startChar": 19,
+        "endLine": 157,
+        "endChar": 56
+      },
+      "revId": "e5a99ea6ac96a499ac1d87eae5aab9d7578e665f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9543a6db_89bce7e8",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-01-28T08:46:04Z",
+      "side": 1,
+      "message": "This is the default value in fw/b: https://github.com/LineageOS/android_frameworks_base/blob/lineage-16.0/core/res/res/values/config.xml#L1271",
+      "range": {
+        "startLine": 161,
+        "startChar": 19,
+        "endLine": 161,
+        "endChar": 56
+      },
+      "revId": "e5a99ea6ac96a499ac1d87eae5aab9d7578e665f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f642da06_c2d82ccf",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 689,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-01-28T08:46:04Z",
+      "side": 1,
+      "message": "Move this to the place where it was set before so that the change looks minimal.",
+      "range": {
+        "startLine": 689,
+        "startChar": 19,
+        "endLine": 689,
+        "endChar": 45
+      },
+      "revId": "e5a99ea6ac96a499ac1d87eae5aab9d7578e665f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
