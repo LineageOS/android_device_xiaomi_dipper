@@ -45,6 +45,30 @@
       "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6d8e64f7_fc6bed0a",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 18920
+      },
+      "writtenOn": "2019-02-04T17:38:42Z",
+      "side": 1,
+      "message": "I actually just get that value to follow the blueline overlays, but if it would be better to keep a lower value, whatever the reason, I don\u0027t see why not too.",
+      "parentUuid": "8efbe121_20e220d8",
+      "range": {
+        "startLine": 642,
+        "startChar": 47,
+        "endLine": 642,
+        "endChar": 48
+      },
+      "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
