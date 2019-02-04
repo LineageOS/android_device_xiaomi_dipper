@@ -69,6 +69,53 @@
       "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8ba28ba_165bc8f9",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T17:44:48Z",
+      "side": 1,
+      "message": "I Don\u0027t know what was the reason why Google did that (maybe a panel limitation?), but if 1 works and displays fine under low light conditions, I\u0027d rather keep it. We don\u0027t need to follow Google on that one.",
+      "parentUuid": "6d8e64f7_fc6bed0a",
+      "range": {
+        "startLine": 642,
+        "startChar": 47,
+        "endLine": 642,
+        "endChar": 48
+      },
+      "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "190f83ff_3be1e465",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T17:44:48Z",
+      "side": 1,
+      "message": "The same reason why I wouldn\u0027t change this MIUI stock value.",
+      "range": {
+        "startLine": 646,
+        "startChar": 58,
+        "endLine": 646,
+        "endChar": 60
+      },
+      "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
