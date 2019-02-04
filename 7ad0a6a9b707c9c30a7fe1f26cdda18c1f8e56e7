@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "c23f3293_cdc45efc",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 18920
+      },
+      "writtenOn": "2019-02-04T18:04:28Z",
+      "side": 1,
+      "message": "Then let\u0027s get back to the previous value then.",
+      "parentUuid": "c8ba28ba_165bc8f9",
+      "range": {
+        "startLine": 642,
+        "startChar": 47,
+        "endLine": 642,
+        "endChar": 48
+      },
+      "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "190f83ff_3be1e465",
         "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
         "patchSetId": 6
@@ -107,6 +131,30 @@
       "writtenOn": "2019-02-04T17:44:48Z",
       "side": 1,
       "message": "The same reason why I wouldn\u0027t change this MIUI stock value.",
+      "range": {
+        "startLine": 646,
+        "startChar": 58,
+        "endLine": 646,
+        "endChar": 60
+      },
+      "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c95d3ccc_2bd3fa8d",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 18920
+      },
+      "writtenOn": "2019-02-04T18:04:28Z",
+      "side": 1,
+      "message": "I decided to keep that due that default value is more comfortable for the eyes and because of the good feedback received about keeping it like that (mainly for the same reason already stated).",
+      "parentUuid": "190f83ff_3be1e465",
       "range": {
         "startLine": 646,
         "startChar": 58,
