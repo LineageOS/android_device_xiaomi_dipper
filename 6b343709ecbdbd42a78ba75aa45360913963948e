@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4dec70ea_2bf42a18",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T16:29:15Z",
+      "side": 1,
+      "message": "This overlay belongs to SystemUI.",
+      "range": {
+        "startLine": 638,
+        "startChar": 0,
+        "endLine": 647,
+        "endChar": 20
+      },
+      "revId": "6b343709ecbdbd42a78ba75aa45360913963948e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "54c33b56_4a80e2e1",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 667,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T16:29:15Z",
+      "side": 1,
+      "message": "Duplicate.",
+      "range": {
+        "startLine": 667,
+        "startChar": 4,
+        "endLine": 667,
+        "endChar": 69
+      },
+      "revId": "6b343709ecbdbd42a78ba75aa45360913963948e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
