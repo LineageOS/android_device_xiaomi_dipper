@@ -45,6 +45,30 @@
       "revId": "9fc353746751a7d10e26e1f6cf44b28df7a26b0f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c4d769f_5eca984d",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 18920
+      },
+      "writtenOn": "2019-02-04T13:18:57Z",
+      "side": 1,
+      "message": "I don\u0027t think so, also because no one complained about that (yet), so... Anyway I\u0027ve set that as 7 instead of 32 (as it\u0027s on blueline) in order to prevent burn-in on dipper. (I don\u0027t use AOD by the way)",
+      "parentUuid": "add7c960_c57a6051",
+      "range": {
+        "startLine": 385,
+        "startChar": 48,
+        "endLine": 385,
+        "endChar": 49
+      },
+      "revId": "9fc353746751a7d10e26e1f6cf44b28df7a26b0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
