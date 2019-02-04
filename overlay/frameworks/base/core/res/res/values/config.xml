@@ -641,6 +641,11 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDim">6</integer>
 
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+         May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">7</integer>
+
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
     <integer name="config_screenBrightnessSettingDefault">98</integer>
@@ -648,6 +653,12 @@
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
+
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+
+    <!-- True if the display hardware only has brightness buckets rather than a full range of
+         backlight values -->
+    <bool name="config_displayBrightnessBucketsInDoze">true</bool>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
