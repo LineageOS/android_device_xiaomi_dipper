@@ -22,6 +22,29 @@
       "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8efbe121_20e220d8",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T17:06:03Z",
+      "side": 1,
+      "message": "Out of curiosity, why not to allow such low value (1)?",
+      "range": {
+        "startLine": 642,
+        "startChar": 47,
+        "endLine": 642,
+        "endChar": 48
+      },
+      "revId": "7ad0a6a9b707c9c30a7fe1f26cdda18c1f8e56e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
