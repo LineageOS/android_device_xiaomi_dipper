@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e1762b01_8a8e07ae",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T12:14:29Z",
+      "side": 1,
+      "message": "I am not sure about this without anyone even testing it with a VR headset. I\u0027d rather keep fw/b defaults.",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 76
+      },
+      "revId": "9fc353746751a7d10e26e1f6cf44b28df7a26b0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "add7c960_c57a6051",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T12:14:29Z",
+      "side": 1,
+      "message": "Isn\u0027t this too bright for Ambient Display during the night? I was looking at https://github.com/LineageOS/android_device_google_crosshatch/commit/1c5beb537cb81b836fb997a03bb42687db58ebc1 and maybe you should also set config_doze_brightness_sensor_to_brightness.",
+      "range": {
+        "startLine": 385,
+        "startChar": 48,
+        "endLine": 385,
+        "endChar": 49
+      },
+      "revId": "9fc353746751a7d10e26e1f6cf44b28df7a26b0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
