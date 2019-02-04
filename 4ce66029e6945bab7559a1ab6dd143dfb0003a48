@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "74b631b8_7649c83c",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-04T16:40:18Z",
+      "side": 1,
+      "message": "Again, this goes into: overlay/frameworks/base/packages/SystemUI/res/values/config.xml",
+      "range": {
+        "startLine": 639,
+        "startChar": 0,
+        "endLine": 647,
+        "endChar": 20
+      },
+      "revId": "4ce66029e6945bab7559a1ab6dd143dfb0003a48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
