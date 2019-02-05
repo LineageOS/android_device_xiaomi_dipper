@@ -18,6 +18,9 @@ TARGET_FACE_UNLOCK_CAMERA_ID := 5
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
+# HIDL
+DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
+
 # NFC
 TARGET_USES_NQ_NFC := true
 
