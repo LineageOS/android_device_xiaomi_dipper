@@ -1,2 +1,0 @@
-on init
-    mount none /system/etc/manifest.xml /vendor/etc/vintf/manifest.xml bind
