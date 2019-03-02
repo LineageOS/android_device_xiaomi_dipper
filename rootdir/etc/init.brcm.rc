@@ -1,0 +1,50 @@
+on post-fs-data
+
+mkdir /data/vendor/gps
+mkdir /data/vendor/gps/log
+mkdir /data/vendor/gps/log/gps
+mkdir /data/vendor/gps/log/lhd
+chown gps system /data/vendor/gps
+chown gps system /data/vendor/gps/log
+chown gps system /data/vendor/gps/log/gps
+chown gps system /data/vendor/gps/log/lhd
+chown gps system /dev/ttyBCM
+chmod 775 /data/vendor/gps
+chmod 775 /data/vendor/gps/log
+chmod 770 /data/vendor/gps/log/gps
+chmod 770 /data/vendor/gps/log/lhd
+chmod 775 /dev/ttyBCM
+
+on boot
+
+#write /sys/class/gpio/export 133
+#write /sys/class/gpio/gpio133/direction out
+#write /sys/class/gpio/gpio133/value 0
+#chown gps system /sys/class/gpio/gpio133/value
+#chmod 0774 /sys/class/gpio/gpio133/value
+chown gps system /sys/devices/platform/soc/890000.spi/spi_master/spi32766/spi32766.0/nstandby
+chmod 0774 /sys/devices/platform/soc/890000.spi/spi_master/spi32766/spi32766.0/nstandby
+chown gps system /dev/bbd_control
+chmod 0774 /dev/bbd_control
+chown gps system /dev/bbd_patch
+chmod 0774 /dev/bbd_patch
+chown gps system /dev/bbd_sensor
+chmod 0774 /dev/bbd_sensor
+
+service lhd /vendor/bin/lhd /vendor/etc/lhd.conf
+    class late_start
+    user gps
+    group system inet net_raw sdcard_rw wakelock
+    ioprio rt 0
+
+service glgps /vendor/bin/glgps -c /vendor/etc/gpsconfig.xml
+    socket gps seqpacket 660 gps system
+    class late_start
+    user gps
+    group system inet sdcard_rw wakelock
+    ioprio rt 0
+
+service ignss_1_1 /vendor/bin/ignss_1_1
+    class  late_start
+    user  system
+    group system inet sdcard_rw wakelock

@@ -13,6 +13,15 @@ $(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
 
+# Device fstab
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
+# Init
+PRODUCT_PACKAGES += \
+    init.brcm.rc \
+    init.remosaic.rc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -37,9 +46,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from sdm845-common
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
-# Device fstab
-PRODUCT_PACKAGES += \
-    fstab.qcom
 
 # Input
 PRODUCT_COPY_FILES += \
