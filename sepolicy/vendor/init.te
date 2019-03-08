@@ -1,0 +1,6 @@
+allow init vendor_data_file:fifo_file write;
+allow init vendor_data_file:file {lock rename};
+allow init init:tcp_socket {create bind};
+allow init system_server:binder call;
+allow init port:tcp_socket {name_bind name_connect};
+allow init node:tcp_socket node_bind;
