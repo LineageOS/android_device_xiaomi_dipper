@@ -14,3 +14,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.displayfeature.histogram.enable=true \
     ro.eyecare.brightness.threshold=3 \
     ro.eyecare.brightness.level=8
+
+# GPS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.gps=brcm
+
+# NFC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.nfc_nci=nqx.default
+
+
