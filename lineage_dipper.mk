@@ -13,13 +13,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_dipper
 PRODUCT_DEVICE := dipper
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 8
+PRODUCT_MODEL := MI 8
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.11.0.OEACNFA:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/dipper/dipper:9/PKQ1.180729.001/9.2.21:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEACNFA release-keys" \
+    PRIVATE_BUILD_DESC="dipper-user 9 PKQ1.180729.001 9.2.21 release-keys" \
     PRODUCT_NAME="dipper" \
     TARGET_DEVICE="dipper"
 
