@@ -16,10 +16,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 8
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.11.0.OEACNFA:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/dipper/dipper:9/PKQ1.180729.001/V10.1.2.0.PEAMIFI:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEACNFA release-keys" \
+    PRIVATE_BUILD_DESC="dipper-user 9 PKQ1.180729.001 V10.1.2.0.PEAMIFI__2018-11-01 release-keys" \
     PRODUCT_NAME="dipper" \
     TARGET_DEVICE="dipper"
 
