@@ -286,6 +286,10 @@ vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
 vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 
+# Sensors
+vendor/lib64/sensors.ssc.so
+vendor/lib/sensors.ssc.so
+
 # Sensors configs
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/sdm845_bmp285_0.json
