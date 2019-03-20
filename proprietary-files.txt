@@ -1,0 +1,2 @@
+etc/gps_debug.conf
+etc/gps_diag.cfg
