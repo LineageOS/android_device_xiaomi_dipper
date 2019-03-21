@@ -2,6 +2,144 @@
   "comments": [
     {
       "key": {
+        "uuid": "8b14204b_3c2ce541",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T11:24:06Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be needed.",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 25
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb2730fa_4b0f3e64",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T11:24:06Z",
+      "side": 1,
+      "message": "Neither this.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 25
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed897d16_6f4cd172",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T11:24:06Z",
+      "side": 1,
+      "message": "Moved to common.",
+      "range": {
+        "startLine": 203,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 53
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "80659405_311f04c4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T11:24:06Z",
+      "side": 1,
+      "message": "Moved to common.",
+      "range": {
+        "startLine": 208,
+        "startChar": 0,
+        "endLine": 208,
+        "endChar": 46
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f9d35e64_01fec988",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T11:24:06Z",
+      "side": 1,
+      "message": "Moved to common.",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 63
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea59b0d1_7b92cdc1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T11:24:06Z",
+      "side": 1,
+      "message": "32 bit libs are not needed.",
+      "range": {
+        "startLine": 215,
+        "startChar": 0,
+        "endLine": 222,
+        "endChar": 61
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "71b03487_206c3bc9",
         "filename": "proprietary-files.txt",
         "patchSetId": 19
@@ -18,6 +156,29 @@
         "startChar": 0,
         "endLine": 282,
         "endChar": 46
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a2b3355_c41096ff",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T11:24:06Z",
+      "side": 1,
+      "message": "Already added to sdm45-common",
+      "range": {
+        "startLine": 292,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 35
       },
       "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
