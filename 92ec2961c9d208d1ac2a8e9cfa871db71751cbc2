@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "71b03487_206c3bc9",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 19
+      },
+      "lineNbr": 282,
+      "author": {
+        "id": 20225
+      },
+      "writtenOn": "2019-03-21T11:00:37Z",
+      "side": 1,
+      "message": "I\u0027ve added this here for now as I had a missing file reported for it earlier on. I\u0027ll test this again and remove it if needed.",
+      "range": {
+        "startLine": 282,
+        "startChar": 0,
+        "endLine": 282,
+        "endChar": 46
+      },
+      "revId": "92ec2961c9d208d1ac2a8e9cfa871db71751cbc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
