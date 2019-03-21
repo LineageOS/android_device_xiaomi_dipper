@@ -16,6 +16,24 @@
       "revId": "8ff5e953c0bba6b411cdba8741671e6e855614e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a07c0d0e_53b89a18",
+        "filename": "device-props.mk",
+        "patchSetId": 16
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-21T13:46:26Z",
+      "side": 1,
+      "message": "Nothing was removed.",
+      "parentUuid": "f92a22b7_4c7e78d7",
+      "revId": "8ff5e953c0bba6b411cdba8741671e6e855614e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
