@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "35745565_6551ae6f",
+        "filename": "gps/gps_debug.conf",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-25T19:46:00Z",
+      "side": 1,
+      "message": "I suspect that this is what makes it work, forcing injection using the XTRA servers.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 62
+      },
+      "revId": "e14b182f8eb85d17105930302cbfbaa449c5aca6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
