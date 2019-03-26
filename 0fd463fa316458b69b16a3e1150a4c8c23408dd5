@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3dddcccf_cd954334",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-26T22:11:05Z",
+      "side": 1,
+      "message": "These are already set in the common tree.",
+      "range": {
+        "startLine": 703,
+        "startChar": 0,
+        "endLine": 704,
+        "endChar": 35
+      },
+      "revId": "0fd463fa316458b69b16a3e1150a4c8c23408dd5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
