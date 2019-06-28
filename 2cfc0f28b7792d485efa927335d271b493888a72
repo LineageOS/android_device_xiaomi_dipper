@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "65363c50_3d82bc91",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 26
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-06-28T09:56:46Z",
+      "side": 1,
+      "message": "As per my comments in the common change, the only relevant part of this script should be the limit to the draw current for the IR camera led, but that part (https://github.com/TadiT7/xiaomi_dipper_dump/blob/6e093ef30859105a4cac26b132d962349a634ae5/vendor/etc/init.leds.sh#L33) can easily be added to a device init .rc script.\n\nSomething like:\n\n\u003e on init\n\u003e     write /sys/class/leds/ir/max_brightness 63",
+      "range": {
+        "startLine": 271,
+        "startChar": 0,
+        "endLine": 271,
+        "endChar": 23
+      },
+      "revId": "2cfc0f28b7792d485efa927335d271b493888a72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
