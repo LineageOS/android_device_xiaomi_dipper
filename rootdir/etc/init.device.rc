@@ -1,0 +1,3 @@
+on init
+    write /sys/class/leds/white/max_brightness 6
+    write /sys/class/leds/ir/max_brightness 63
