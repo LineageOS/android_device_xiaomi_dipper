@@ -56,6 +56,7 @@ PRODUCT_PACKAGES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
+    init.brcm.rc \
     init.target.rc
 
 # Input
