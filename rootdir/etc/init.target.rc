@@ -56,6 +56,14 @@ on post-fs-data
     chmod 770 /data/vendor/gps/log/lhd
     chmod 775 /dev/ttyBCM
 
+service displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
+    override
+    class hal
+    user system
+    group system graphics
+    onrestart restart displayfeature
+    disabled
+
 service glgps /vendor/bin/glgps -c /vendor/etc/gpsconfig.xml
     socket gps seqpacket 660 gps system
     class late_start
