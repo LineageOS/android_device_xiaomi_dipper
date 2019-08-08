@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 # Camera
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
+# Display
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
