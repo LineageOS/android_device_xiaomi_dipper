@@ -15,7 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display postprocessing
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.display.enable_default_color_mode=0
+    vendor.display.enable_default_color_mode=1
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
