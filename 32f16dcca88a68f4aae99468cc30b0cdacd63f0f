@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c059549f_a0fafcfe",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-10-16T04:27:00Z",
+      "side": 1,
+      "message": "Is this blob needed? IIRC it belongs to the QC stack.",
+      "revId": "32f16dcca88a68f4aae99468cc30b0cdacd63f0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
