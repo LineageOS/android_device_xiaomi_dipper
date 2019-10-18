@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d8f52a78_4d2e366e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 16299
+      },
+      "writtenOn": "2019-10-18T19:53:21Z",
+      "side": 0,
+      "message": "Missing vendor/etc/sensors/sns_reg_config\n\n10-18 22:49:01.320  1068  1236 E /vendor/bin/sscrpcd: vendor/qcom/proprietary/commonsys-intf/adsprpc/src/apps_std_imp.c:728:Error 45: fopen failed for /vendor/etc/sensors/sns_reg_config. (No such file or directory)",
+      "revId": "72d025cf37985db812d3cc508f74a343356f09d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
