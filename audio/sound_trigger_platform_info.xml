@@ -32,6 +32,7 @@
 <!--- 0x0102: Includes acdb_ids param with the gcs_usecase tag. This matches    -->
 <!--- the gcs_usecase with the acdb device that uses it.                        -->
     <common_config>
+        <param implementer_version="0x0100" />
         <param max_cpe_sessions="1" />
         <param max_wdsp_sessions="2" />
         <param max_ape_sessions="8" />
@@ -100,7 +101,7 @@
         </arm_ss_usecase>
         <gcs_usecase>
             <param uid="0x1" />
-            <param acdb_devices="DEVICE_HANDSET_MIC_CPE, DEVICE_HANDSET_TMIC_CPE, DEVICE_HEADSET_MIC_CPE" />
+            <param acdb_devices="DEVICE_HANDSET_MIC_CPE, DEVICE_HANDSET_TMIC_CPE, DEVICE_HEADSET_MIC_CPE, DEVICE_HEADSET_MIC_CPE" />
             <!-- module_id, instance_id, param_id -->
             <param load_sound_model_ids="0x00012C0D, 0x2, 0x00012C14" />
             <param confidence_levels_ids="0x00012C0D, 0x2, 0x00012C28" />
@@ -175,7 +176,7 @@
         <param wdsp_fluence_type="NONE" />
         <gcs_usecase>
             <param uid="0x3" />
-            <param acdb_devices="DEVICE_HANDSET_MIC_CPE, DEVICE_HANDSET_TMIC_CPE, DEVICE_HEADSET_MIC_CPE" />
+            <param acdb_devices="DEVICE_HANDSET_MIC_CPE, DEVICE_HANDSET_TMIC_CPE" />
             <param load_sound_model_ids="0x18000001, 0x4, 0x00012C14" />
             <param confidence_levels_ids="0x18000001, 0x4, 0x00012C28" />
             <param detection_event_ids="0x18000001, 0x4, 0x00012C29" />
