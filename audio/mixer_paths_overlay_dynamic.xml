@@ -50,4 +50,5 @@
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
+
 </mixer>
