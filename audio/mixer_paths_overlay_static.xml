@@ -14,10 +14,13 @@
     <ctl name="QUAT_MI2S_RX_Voice Mixer Voip" value="0" />
     <ctl name="ADC3 Volume" value="12" />
     <ctl name="ADC4 Volume" value="12" />
-    <ctl name="Configuration" value="2" />
+    <ctl name="Configuration" value="10" />
     <ctl name="QUAT_MI2S_RX Channels" value="One" />
-    <ctl name="QUAT_MI2S_TX Channels" value="One" />
+    <ctl name="QUAT_MI2S_RX Format" value="S24_LE" />
     <ctl name="QUAT_MI2S_RX SampleRate" value="KHZ_48" />
+    <ctl name="QUAT_MI2S_TX Channels" value="One" />
+    <ctl name="QUAT_MI2S_TX Format" value="S24_LE" />
+    <ctl name="QUAT_MI2S_TX SampleRate" value="KHZ_48" />
     <ctl name="External AMIC2 Mux" value="Dual_ADC" />
 
     <path name="deep-buffer-playback speaker">
@@ -442,7 +445,7 @@
     </path>
 
     <path name="speaker">
-        <ctl name="Configuration" value="2" />
+        <ctl name="Configuration" value="10" />
     </path>
 
     <path name="speaker-protected">
@@ -450,10 +453,10 @@
     </path>
 
     <path name="voice-speaker">
-        <ctl name="Configuration" value="1" />
+        <ctl name="Configuration" value="9" />
     </path>
     <path name="voice-speaker-protected">
-        <ctl name="Configuration" value="1" />
+        <ctl name="Configuration" value="9" />
     </path>
 
     <path name="handset">
