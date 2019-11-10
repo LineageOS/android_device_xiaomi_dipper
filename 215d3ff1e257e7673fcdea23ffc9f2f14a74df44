@@ -16,6 +16,24 @@
       "revId": "215d3ff1e257e7673fcdea23ffc9f2f14a74df44",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ca49f58_819addb0",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-11-10T20:32:11Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_vendor_nxp_opensource_halimpl/blob/lineage-17.0-pn5xx/halimpl/utils/phNxpConfig.cpp#L94-L95\n\nAre you that so sure? XD",
+      "parentUuid": "10886ccc_caa0de99",
+      "revId": "215d3ff1e257e7673fcdea23ffc9f2f14a74df44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
