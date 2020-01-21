@@ -16,6 +16,23 @@
       "revId": "72d025cf37985db812d3cc508f74a343356f09d1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d141a92a_1c9b2cc8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2020-01-21T21:13:17Z",
+      "side": 0,
+      "message": "time to drop qc wifi",
+      "revId": "72d025cf37985db812d3cc508f74a343356f09d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
