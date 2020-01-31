@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "3ff7814f_c5f585e0",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 705,
+      "author": {
+        "id": 16299
+      },
+      "writtenOn": "2020-01-31T15:23:10Z",
+      "side": 1,
+      "message": "Does AUTOMATIC actually change anything with CAF display stack?",
+      "revId": "d8a4b9d906ec9e5ebf5a8630624c8ec7512f01f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "29cffb5f_3df0e8ca",
         "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
         "patchSetId": 1
