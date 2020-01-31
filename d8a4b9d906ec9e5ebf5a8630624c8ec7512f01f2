@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "29cffb5f_3df0e8ca",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 710,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-01-31T08:16:14Z",
+      "side": 1,
+      "message": "This is set in the common repo.",
+      "revId": "d8a4b9d906ec9e5ebf5a8630624c8ec7512f01f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
