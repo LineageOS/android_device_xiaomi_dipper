@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f01c3c9d_70e51823",
+        "filename": "audio/mixer_paths_overlay_dynamic.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-03T23:47:38Z",
+      "side": 1,
+      "message": "Drop this.",
+      "revId": "64ff837d94f7b40cc987363d9c96b9d32faa073a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f45ca0f_44a41863",
+        "filename": "audio/sound_trigger_platform_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-03T23:47:38Z",
+      "side": 1,
+      "message": "This is a commit from CAF. Check polaris tree.",
+      "revId": "64ff837d94f7b40cc987363d9c96b9d32faa073a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
