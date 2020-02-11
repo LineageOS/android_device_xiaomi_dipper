@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf606b50_fa87b30e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-11T20:59:08Z",
+      "side": 1,
+      "message": "Why are these needed?",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 40
+      },
+      "revId": "ffe82c64c2c14d6698a180a9bb5ea29229121fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8fbced90_d6df9d3a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-11T20:59:08Z",
+      "side": 1,
+      "message": "Already present in common blobs list.",
+      "range": {
+        "startLine": 252,
+        "startChar": 0,
+        "endLine": 253,
+        "endChar": 33
+      },
+      "revId": "ffe82c64c2c14d6698a180a9bb5ea29229121fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
