@@ -12,9 +12,6 @@ DEVICE_PATH := device/xiaomi/dipper
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dipper
 
-# Camera
-TARGET_FACE_UNLOCK_CAMERA_ID := 5
-
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
