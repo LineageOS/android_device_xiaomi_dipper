@@ -33,6 +33,24 @@
       "revId": "64ff837d94f7b40cc987363d9c96b9d32faa073a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f19856f0_fc1c866c",
+        "filename": "audio/sound_trigger_platform_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-11T21:01:58Z",
+      "side": 1,
+      "message": "Pick CAF commit first: https://review.lineageos.org/q/I98dd53c488469e77de72458c920c7376e6865229",
+      "parentUuid": "3f45ca0f_44a41863",
+      "revId": "64ff837d94f7b40cc987363d9c96b9d32faa073a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
