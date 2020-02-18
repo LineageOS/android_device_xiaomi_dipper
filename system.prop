@@ -1,0 +1,11 @@
+# Camera
+persist.camera.sat.fallback.dist=45
+persist.camera.sat.fallback.dist.d=5
+persist.camera.sat.fallback.luxindex=405
+persist.camera.sat.fallback.lux.d=20
+
+# Display
+ro.surface_flinger.has_wide_color_display=true
+
+# Display density
+ro.sf.lcd_density=440

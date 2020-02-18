@@ -1,0 +1,20 @@
+# Audio
+ro.vendor.audio.soundfx.type=mi
+
+# Display
+ro.surface_flinger.has_wide_color_display=true
+
+# Display postprocessing
+vendor.display.enable_default_color_mode=1
+
+# Fingerprint
+ro.hardware.fp.fpc=true
+ro.hardware.fp.goodix=true
+
+# GNSS
+ro.hardware.flp=brcm
+ro.hardware.gps=brcm
+
+# NFC
+ro.hardware.nfc_nci=nqx.default
+ro.se.type=eSE,HCE,UICC
