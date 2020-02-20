@@ -28,6 +28,8 @@
     <acdb_ids>
         <device name="SND_DEVICE_IN_USB_HEADSET_MIC" acdb_id="10009"/>
         <device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="10008"/>
+        <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="10011"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" acdb_id="10011"/>
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" acdb_id="124"/>
         <device name="SND_DEVICE_IN_VOICE_REC_QMIC_FLUENCE" acdb_id="131"/>
         <device name="SND_DEVICE_IN_VOICE_REC_TMIC" acdb_id="131"/>
@@ -116,6 +118,7 @@
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_WB" backend="speaker-and-bt-sco-wb" interface="SLIMBUS_0_RX-and-SLIMBUS_7_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_A2DP" backend="speaker-and-bt-a2dp" interface="SLIMBUS_0_RX-and-SLIMBUS_7_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER" backend="speaker" interface="QUAT_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" backend="speaker" interface="QUAT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="speaker" interface="QUAT_MI2S_RX"/>
     </backend_names>
     <microphone_characteristics>
