@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f16b4003_8bb6f0b3",
+        "filename": "Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-27T21:42:10Z",
+      "side": 1,
+      "message": "I guess you want $(TARGET_OUT_SYSTEM) here.",
+      "range": {
+        "startLine": 24,
+        "startChar": 20,
+        "endLine": 24,
+        "endChar": 41
+      },
+      "revId": "91dc22e1e6e58431213497dc1a5eab925a4712fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
