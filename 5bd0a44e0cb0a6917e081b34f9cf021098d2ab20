@@ -16,6 +16,24 @@
       "revId": "5bd0a44e0cb0a6917e081b34f9cf021098d2ab20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "03b60fae_774e36a6",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 16908
+      },
+      "writtenOn": "2020-02-29T14:50:03Z",
+      "side": 0,
+      "message": "Without this change, all the sounds will be mixed to mono(single) channel.",
+      "parentUuid": "2dc951a8_c3723a50",
+      "revId": "5bd0a44e0cb0a6917e081b34f9cf021098d2ab20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
