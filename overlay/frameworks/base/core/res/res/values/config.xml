@@ -685,6 +685,8 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">88.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
+    <dimen name="rounded_corner_radius_top">80.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">80.0px</dimen>
 
     <!-- Control whether the always on display mode is available. This should only be enabled on
          devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND

@@ -29,6 +29,8 @@
 
 on init
     write /sys/class/leds/ir/max_brightness 63
+    write /sys/class/leds/white/brightness 5
+    write /sys/class/leds/white/max_brightness 10
 
 on boot
     chown gps system /sys/devices/platform/soc/890000.spi/spi_master/spi32766/spi32766.0/nstandby
