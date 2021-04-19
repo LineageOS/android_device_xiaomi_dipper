@@ -218,10 +218,6 @@ vendor/lib64/hw/gps.brcm.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libgps.utils.so
 
-# Hotword enrollment
--product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
--product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
