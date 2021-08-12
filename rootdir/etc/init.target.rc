@@ -64,7 +64,7 @@ service glgps /vendor/bin/glgps -c /vendor/etc/gpsconfig.xml
     ioprio rt 0
 
 service ignss_2_0 /vendor/bin/ignss_2_0
-    class late_start
+    class main
     user system
     group system inet sdcard_rw wakelock
 
