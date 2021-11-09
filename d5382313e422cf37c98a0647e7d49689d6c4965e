@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a962e355_36522544",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22856
+      },
+      "writtenOn": "2021-11-09T14:02:16Z",
+      "side": 1,
+      "message": "How is /metadata partition needed for updatable APEXes? Also LineageOS always flattens APEXes in official builds anyways.",
+      "revId": "d5382313e422cf37c98a0647e7d49689d6c4965e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
