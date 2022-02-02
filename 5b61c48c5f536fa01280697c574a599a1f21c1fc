@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4062a840_26442b6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-02-02T15:40:51Z",
+      "side": 1,
+      "message": "The final values in overlay/frameworks/base/packages/overlays/NoCutoutOverlay/res/values/config.xml are the default ones.",
+      "revId": "5b61c48c5f536fa01280697c574a599a1f21c1fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
