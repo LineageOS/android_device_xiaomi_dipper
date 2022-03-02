@@ -13,3 +13,6 @@ vendor.display.enable_default_color_mode=1
 # GNSS
 ro.hardware.flp=brcm
 ro.hardware.gps=brcm
+
+# USB
+vendor.usb.product_string=Xiaomi Mi 8
