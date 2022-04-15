@@ -1,6 +1,9 @@
 # Audio
 ro.vendor.audio.soundfx.type=mi
 
+# Bluetooth
+bluetooth.device.default_name=Xiaomi Mi 8
+
 # Display
 ro.surface_flinger.has_wide_color_display=true
 
