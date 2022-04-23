@@ -64,20 +64,20 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
+        <name>vendor.nxp.nxpese</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
+        <version>1.0</version>
         <interface>
-            <name>INqNfc</name>
+            <name>INxpEse</name>
             <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.nxp.nxpnfclegacy</name>
+        <name>vendor.nxp.nxpnfc</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>INxpNfcLegacy</name>
+            <name>INxpNfc</name>
             <instance>default</instance>
         </interface>
     </hal>
