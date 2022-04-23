@@ -93,20 +93,14 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
-    com.gsma.services.nfc \
-    com.nxp.nfc.nq \
-    libnqnfc_nci_jni \
-    nfc_nci.nqx.default.hw \
-    NQNfcNci \
-    nqnfcee_access.xml \
-    nqnfcse_access.xml \
-    Tag \
-    vendor.nxp.hardware.nfc@2.0-service
+    NfcNci \
+    libchrome.vendor \
+    Tag
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 # PocketMode
@@ -116,7 +110,3 @@ PRODUCT_PACKAGES += \
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/opensource/pn5xx
