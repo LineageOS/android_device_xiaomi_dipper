@@ -10,7 +10,3 @@ vendor.display.enable_default_color_mode=1
 # GNSS
 ro.hardware.flp=brcm
 ro.hardware.gps=brcm
-
-# NFC
-ro.hardware.nfc_nci=nqx.default
-ro.se.type=eSE,HCE,UICC
