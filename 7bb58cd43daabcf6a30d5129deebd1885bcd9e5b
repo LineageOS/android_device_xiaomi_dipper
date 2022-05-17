@@ -22,6 +22,30 @@
       },
       "revId": "7bb58cd43daabcf6a30d5129deebd1885bcd9e5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79e7e5b8_cd3bcd09",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-17T15:51:16Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "c19993ed_548d58ec",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 17
+      },
+      "revId": "7bb58cd43daabcf6a30d5129deebd1885bcd9e5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
