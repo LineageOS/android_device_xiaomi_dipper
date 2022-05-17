@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4568a924_5e5034be",
+        "filename": "nfc/libnfc-nxp.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-17T15:21:33Z",
+      "side": 1,
+      "message": "How is this working? You missed a } at the end.",
+      "range": {
+        "startLine": 193,
+        "startChar": 0,
+        "endLine": 212,
+        "endChar": 18
+      },
+      "revId": "4a5b4d473516d3ced41890330c2aebda1457a2fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
