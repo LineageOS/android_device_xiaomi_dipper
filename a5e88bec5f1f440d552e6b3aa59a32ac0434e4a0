@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "969ee09f_65e8c09d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-24T22:15:48Z",
+      "side": 1,
+      "message": "I guess that ro.hardware.nfc_nci\u003dnqx.default prop isn\u0027t needed anymore?\n\nhttps://github.com/LineageOS/android_device_xiaomi_dipper/blob/lineage-19.1/vendor.prop#L15",
+      "revId": "a5e88bec5f1f440d552e6b3aa59a32ac0434e4a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
