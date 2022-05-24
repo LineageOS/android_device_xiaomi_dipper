@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a29a3621_40293822",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-24T21:23:11Z",
+      "side": 1,
+      "message": "Please check if proximity to wake is working for you in your current build. Pretty sure you need this commit, as I needed it on Mi 8 Pro.",
+      "revId": "20745b420869f15eec2408f69440f9b55599f740",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
