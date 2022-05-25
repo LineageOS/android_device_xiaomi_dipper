@@ -22,6 +22,30 @@
       },
       "revId": "c5450b7b201095ccd9fd0ff61ec2fd7a577ce2df",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c090dba1_e9b93613",
+        "filename": "manifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-25T20:31:30Z",
+      "side": 1,
+      "message": "Yes, this isn\u0027t registered. And if we want to enable eSE we also need to remove QTI HAL (not registered either at this point).",
+      "parentUuid": "36329091_f890fb8f",
+      "range": {
+        "startLine": 67,
+        "startChar": 14,
+        "endLine": 67,
+        "endChar": 31
+      },
+      "revId": "c5450b7b201095ccd9fd0ff61ec2fd7a577ce2df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
