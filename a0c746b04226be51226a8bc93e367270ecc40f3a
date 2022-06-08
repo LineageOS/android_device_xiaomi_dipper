@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "faad334b_d6aad4b9",
+        "filename": "nfc/libnfc-nci.conf",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-06-08T09:52:33Z",
+      "side": 0,
+      "message": "Where did you get these changes from?",
+      "revId": "a0c746b04226be51226a8bc93e367270ecc40f3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
