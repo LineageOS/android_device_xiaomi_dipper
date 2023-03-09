@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
     libchrome.vendor \
-    NfcNci \
     Tag
 
 PRODUCT_COPY_FILES += \
@@ -108,10 +107,6 @@ PRODUCT_COPY_FILES += \
 # PocketMode
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
-
-# Secure element
-PRODUCT_PACKAGES += \
-    SecureElement
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
