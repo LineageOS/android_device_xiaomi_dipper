@@ -23,6 +23,13 @@
     <ctl name="QUAT_MI2S_TX SampleRate" value="KHZ_48" />
     <ctl name="External AMIC2 Mux" value="Dual_ADC" />
 
+    <!-- IIR0 Voice/ANC -->
+    <ctl name="IIR0 Enable Band1" value="1" />
+    <ctl name="IIR0 Enable Band2" value="1" />
+    <ctl name="IIR0 Enable Band3" value="1" />
+    <ctl name="IIR0 Enable Band4" value="1" />
+    <ctl name="IIR0 Enable Band5" value="1" />
+
     <path name="deep-buffer-playback speaker">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
     </path>
