@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4451a2ac_e7535563",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-02-20T10:35:19Z",
+      "side": 1,
+      "message": "It works fine on beryllium, but can you check at your end as well? It requires this chain: https://review.lineageos.org/c/LineageOS/android_hardware_xiaomi/+/383531.",
+      "revId": "53cf3abe69c8c4c1e8b9411b89799d50764bfd84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
