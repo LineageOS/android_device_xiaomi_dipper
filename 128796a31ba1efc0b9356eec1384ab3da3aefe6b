@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb4d995f_ff88cce4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-02-27T13:09:30Z",
+      "side": 1,
+      "message": "Blind merge as picked from PE and verified already by several users.",
+      "revId": "128796a31ba1efc0b9356eec1384ab3da3aefe6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
