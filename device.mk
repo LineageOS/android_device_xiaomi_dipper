@@ -67,11 +67,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    com.fingerprints.extension@1.0.vendor \
-    vendor.goodix.hardware.fingerprintextension@1.0.vendor
-
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf
@@ -97,7 +92,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
-    libchrome.vendor \
     Tag
 
 PRODUCT_COPY_FILES += \
