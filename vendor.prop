@@ -10,6 +10,9 @@ ro.surface_flinger.has_wide_color_display=true
 # Display postprocessing
 vendor.display.enable_default_color_mode=1
 
+# Fingerprint
+persist.vendor.fingerprint.type=rear
+
 # GNSS
 ro.hardware.flp=brcm
 ro.hardware.gps=brcm
