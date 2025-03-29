@@ -12,7 +12,6 @@ vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/lib/libacdbloader.so
-vendor/lib64/libacdbloader.so
 
 # ADSP modules
 vendor/lib/rfsa/adsp/dirac_resource.dar
@@ -31,8 +30,6 @@ vendor/etc/tas2557_goer.ftcfg
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/libbtnv.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 
@@ -60,6 +57,8 @@ vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/camera/watermark_font_2300_3199.dat
+vendor/lib64/libremosaic_daemon.so
+vendor/lib64/libremosaiclib.so
 vendor/lib/camera/com.qti.sensor.imx363.so
 vendor/lib/camera/com.qti.sensor.ov7251.so
 vendor/lib/camera/com.qti.sensor.s5k3m3.so
@@ -171,12 +170,6 @@ vendor/lib/libvidhance.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_denoiser3.so
 vendor/lib/mibokeh_845_opencl.bin
-vendor/lib64/libcamxfdalgov7.so
-vendor/lib64/libcamxfdengine.so
-vendor/lib64/libcamxstatscore.so
-vendor/lib64/libnanopb.so
-vendor/lib64/libremosaiclib.so
-vendor/lib64/libremosaic_daemon.so
 
 # Camera firmware
 vendor/firmware/bu64748gwz.prog
@@ -207,8 +200,6 @@ vendor/etc/gps.conf
 vendor/etc/gpsconfig.xml
 vendor/etc/lhd.conf
 vendor/etc/SensorHub.patch
-vendor/lib/libdiagjni.so
-vendor/lib/libgps.utils.so
 vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so
 vendor/lib64/hw/flp.brcm.so
 vendor/lib64/hw/gps.brcm.so
@@ -218,10 +209,6 @@ vendor/lib64/libgps.utils.so
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
@@ -237,11 +224,9 @@ vendor/etc/qdcm_calib_data_ss_notch_fhd_cmd_dsi_panel.xml
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.0-service
 vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
-vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
-vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
 # Sensors configs
@@ -283,8 +268,6 @@ vendor/etc/sensors/sns_reg_config
 # Snapdragon Computer Vision Engine
 vendor/lib/libscveFaceLandmarks.so
 vendor/lib/libscveFaceRecognition.so
-vendor/lib64/libscveFaceLandmarks.so
-vendor/lib64/libscveFaceRecognition.so
 
 # Thermal configs
 vendor/etc/thermal-engine-sdm845-arvr.conf
