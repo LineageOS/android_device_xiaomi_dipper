@@ -33,15 +33,6 @@ vendor/etc/tas2557_goer.ftcfg
 vendor/lib/libacdbloader.so
 vendor/lib/libcsd-client.so
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib64/libbtnv.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
-
 # Camera
 vendor/bin/remosaic_daemon
 vendor/etc/camera/MIUI_Time.ttf
