@@ -26,6 +26,7 @@ namespace_imports = [
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib/camera/components/com.qti.node.watermark.so': blob_fixup()
+        .add_needed('libdng_sdk_shim.so')
         .add_needed('libpiex_shim.so'),
     (
         'vendor/lib/libarcsoft_dualcam_refocus_front.so',
