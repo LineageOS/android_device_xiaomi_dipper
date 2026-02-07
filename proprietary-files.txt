@@ -4,7 +4,6 @@
 # libSNPE depends on libgcc intrinsics (unresolved __aeabi_f2lz and __aeabi_ul2f symbols)
 
 # ACDB data
-vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
@@ -14,11 +13,12 @@ vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # ADSP modules
 vendor/lib/rfsa/adsp/dirac_resource.dar
-vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
+vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/misound_res.bin
 
 # Audio (speaker amplifier) firmware
@@ -44,6 +44,8 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
 # Camera
 vendor/bin/remosaic_daemon
+vendor/etc/camera/MIUI_Time.ttf
+vendor/etc/camera/Miui-Light.ttf
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/camxoverridesettings.txt
@@ -59,36 +61,17 @@ vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
-vendor/etc/camera/Miui-Light.ttf
-vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/people_gender.dat
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/camera/watermark_font_2300_3199.dat
-vendor/lib64/libremosaic_daemon.so
-vendor/lib64/libremosaiclib.so
-vendor/lib/camera/com.qti.sensor.imx363.so
-vendor/lib/camera/com.qti.sensor.ov7251.so
-vendor/lib/camera/com.qti.sensor.s5k3m3.so
-vendor/lib/camera/com.qti.sensor.s5k3t1.so
-vendor/lib/camera/com.qti.sensormodule.imx333.bin
-vendor/lib/camera/com.qti.sensormodule.imx363.bin
-vendor/lib/camera/com.qti.sensormodule.liteon_imx333.bin
-vendor/lib/camera/com.qti.sensormodule.liteon_imx363.bin
-vendor/lib/camera/com.qti.sensormodule.liteon_s5k3m3sn03.bin
-vendor/lib/camera/com.qti.sensormodule.ov7251.bin
-vendor/lib/camera/com.qti.sensormodule.s5k3m3sn03.bin
-vendor/lib/camera/com.qti.sensormodule.s5k3t1.bin
-vendor/lib/camera/com.qti.sensormodule.s5k3t1_qtech.bin
-vendor/lib/camera/com.qti.tuned.default.bin
-vendor/lib/camera/com.qti.tuned.liteon_imx363.bin
-vendor/lib/camera/com.qti.tuned.liteon_s5k3m3.bin
-vendor/lib/camera/com.qti.tuned.qtech_s5k3t1.bin
-vendor/lib/camera/com.qti.tuned.semco_imx363.bin
-vendor/lib/camera/com.qti.tuned.semco_s5k3m3.bin
-vendor/lib/camera/com.qti.tuned.sunny_ov7251.bin
-vendor/lib/camera/com.qti.tuned.sunny_s5k3t1.bin
+vendor/lib/camera/components/etc/GpuKernelRepo.pb
+vendor/lib/camera/components/etc/model_back.dlc
+vendor/lib/camera/components/etc/model_front.dlc
+vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
 vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.capturefusion.so
 vendor/lib/camera/components/com.arcsoft.node.hdr.so
@@ -127,18 +110,40 @@ vendor/lib/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
 vendor/lib/camera/components/com.vidhance.node.eis.so
 vendor/lib/camera/components/com.xiaomi.node.mibokeh.so
-vendor/lib/camera/components/etc/GpuKernelRepo.pb
-vendor/lib/camera/components/etc/model_back.dlc
-vendor/lib/camera/components/etc/model_front.dlc
-vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
+vendor/lib/camera/com.qti.sensor.imx363.so
+vendor/lib/camera/com.qti.sensor.ov7251.so
+vendor/lib/camera/com.qti.sensor.s5k3m3.so
+vendor/lib/camera/com.qti.sensor.s5k3t1.so
+vendor/lib/camera/com.qti.sensormodule.imx333.bin
+vendor/lib/camera/com.qti.sensormodule.imx363.bin
+vendor/lib/camera/com.qti.sensormodule.liteon_imx333.bin
+vendor/lib/camera/com.qti.sensormodule.liteon_imx363.bin
+vendor/lib/camera/com.qti.sensormodule.liteon_s5k3m3sn03.bin
+vendor/lib/camera/com.qti.sensormodule.ov7251.bin
+vendor/lib/camera/com.qti.sensormodule.s5k3m3sn03.bin
+vendor/lib/camera/com.qti.sensormodule.s5k3t1.bin
+vendor/lib/camera/com.qti.sensormodule.s5k3t1_qtech.bin
+vendor/lib/camera/com.qti.tuned.default.bin
+vendor/lib/camera/com.qti.tuned.liteon_imx363.bin
+vendor/lib/camera/com.qti.tuned.liteon_s5k3m3.bin
+vendor/lib/camera/com.qti.tuned.qtech_s5k3t1.bin
+vendor/lib/camera/com.qti.tuned.semco_imx363.bin
+vendor/lib/camera/com.qti.tuned.semco_s5k3m3.bin
+vendor/lib/camera/com.qti.tuned.sunny_ov7251.bin
+vendor/lib/camera/com.qti.tuned.sunny_s5k3t1.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigpreviewlite.bin
 vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/libFaceGrade.so
+vendor/lib/libHalSuperSensorServer.so
+vendor/lib/libSNPE.so;DISABLE_CHECKELF
+vendor/lib/libSuperSensor.so
+vendor/lib/libSuperSensorCPU.so
+vendor/lib/libXMFD_AgeGender.so
+vendor/lib/lib_denoiser3.so
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_image_optical_zoom.so
 vendor/lib/libarcsoft_dualcam_refocus.so
@@ -159,29 +164,24 @@ vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libFaceGrade.so
 vendor/lib/libft2vendor.so
-vendor/lib/libHalSuperSensorServer.so
 vendor/lib/libmibokeh_845.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmpbase.so
 vendor/lib/libremosaic_daemon.so
-vendor/lib/libSNPE.so;DISABLE_CHECKELF
-vendor/lib/libSuperSensor.so
-vendor/lib/libSuperSensorCPU.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
 vendor/lib/libvidhance.so
-vendor/lib/libXMFD_AgeGender.so
-vendor/lib/lib_denoiser3.so
 vendor/lib/mibokeh_845_opencl.bin
+vendor/lib64/libremosaic_daemon.so
+vendor/lib64/libremosaiclib.so
 
 # Camera firmware
-vendor/firmware/bu64748gwz.prog
 vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/bu64748gwz.prog
 
 # Camera OIS firmware
 vendor/firmware/dipper_ois.coeff
@@ -190,8 +190,8 @@ vendor/firmware/dipper_ois_liteon.coeff
 vendor/firmware/dipper_ois_liteon.prog
 
 # Display configs
-vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
+vendor/etc/sdr_config.cfg
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sdm845.so;FIX_SONAME
@@ -204,13 +204,13 @@ vendor/bin/glgps
 vendor/bin/gps.cer
 vendor/bin/ignss_2_0
 vendor/bin/lhd
+vendor/etc/SensorHub.patch
 vendor/etc/gps.conf
 vendor/etc/gpsconfig.xml
 vendor/etc/lhd.conf
-vendor/etc/SensorHub.patch
-vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so
 vendor/lib64/hw/flp.brcm.so;FIX_SONAME
 vendor/lib64/hw/gps.brcm.so;FIX_SONAME
+vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libgps.utils.so
 
